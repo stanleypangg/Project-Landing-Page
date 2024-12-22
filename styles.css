@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    font-family: 'Roboto';
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0 100px;
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.information {
+    flex: 1;
+}
+
+.information p {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    flex: 1;
+}
