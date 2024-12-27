@@ -26,6 +26,22 @@ li {
     list-style: none;
 }
 
+.hero-container {
+    display: flex;
+}
+
+.hero-div {
+    flex: 0.5
+}
+
+.placeholder {
+    background-color: gray;
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -39,6 +55,19 @@ li {
 .hero {
     font-size: 48px;
     font-weight: 900;
+}
+
+.signup {
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30p;
+    background-color: #3882F6;
+}
+
+.signup p {
+    padding: 7px;
+    font-weight: 700;
 }
 
 .information {
@@ -66,11 +95,15 @@ li {
     width: 100px;
 }
 
+.box-container p {
+    margin: 5px 0;
+}
+
 .boxes .box {
     width: 100px;
     height: 100px;
-    background-color: lightblue;
-    border: 2px solid black;
+    border: 2px solid rgb(50, 118, 219);
+    border-radius: 8px;
 }
 
 .banner-container {
